@@ -4,7 +4,6 @@ import sys
 import random
 import string
 import secrets
-from colorama import Fore, Back, Style
 
 intro =\
 """
@@ -20,7 +19,7 @@ try:
     int_arg = int(sys.argv[1], base=10)
 
 except:
-    print(Fore.RED + "ERROR! Please only enter a base 10 number!")
+    print("ERROR! Please only enter a base 10 number!")
 
 def randomstring(stringlength):
     securestr = ''.join((secrets.choice(string.ascii_letters + string.digits + string.punctuation) for char in range(stringlength)))
