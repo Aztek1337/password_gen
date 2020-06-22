@@ -1,6 +1,6 @@
 # password_gen
 
-A very simple password generator I made to practice Python.
+A very simple CLI password generator I made to practice Python.
 
 ## Usage:
 Run in terminal with argument.
