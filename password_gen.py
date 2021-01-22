@@ -1,5 +1,3 @@
-# AA Test, Password generator
-
 import sys
 import random
 import string
